@@ -1,6 +1,6 @@
-name: Solar Theme
-url: http://example.org
-description: A stylish blog using the Solarized color palette
+name: Blog
+url: oscarandrea.github.io
+description: Il blog di uno studente - nulla di troppo serio - di Ingegneria informatica 
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
