@@ -1,9 +1,22 @@
+---
+title: Oscarandrea.Github.Io
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 name: Blog
 url: oscarandrea.github.io
-description: Il blog di uno studente - nulla di troppo serio - di Ingegneria informatica 
-
-permalink: /:year/:month/:day/:title/
+description: Il blog di uno studente - nulla di troppo serio - di Ingegneria informatica
+permalink: "/:year/:month/:day/:title/"
 paginate: 10
-
-gems: [jekyll-paginate]
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+gems:
+- jekyll-paginate
+exclude:
+- README.md
+- Gemfile.lock
+- Gemfile
+- Rakefile
